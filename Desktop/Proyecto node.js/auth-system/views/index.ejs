@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenido</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <% if (usuario) { %>
+      <h1>Bienvenido, <%= usuario.username %></h1>
+      <a href="/logout">Cerrar sesión</a>
+    <% } else { %>
+      <h1>Por favor, inicia sesión</h1>
+      <a href="/login">Iniciar sesión</a>
+    <% } %>
+  </div>
+</body>
+</html>
+
