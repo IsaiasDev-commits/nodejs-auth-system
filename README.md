@@ -29,13 +29,21 @@ This is a simple authentication system built with **Node.js**, **Express**, **Mo
    https://github.com/IsaiasDev-commits/nodejs-auth-system
  Navigate to the project directory:
 Powershell
+
 cd auth-system
+
 Install the project dependencies:
+
 Powershell:
+
 npm install
+
 Start the server:
+
 Powershell:
+
 npm start
 Open your browser and go to http://localhost:3000 to use the application.
+
 Screenshots
 ![image](https://github.com/user-attachments/assets/84b46c59-db06-48fc-94ed-4fa9a32eda5c)
